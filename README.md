@@ -1,8 +1,8 @@
 # SMLM-1
 
-​	We developed a deep biological language learning model SMLM-1, based on DNABERT (Yanrong Ji, Zhihan Zhou, Han Liu, Ramana V Davuluri, DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome, Bioinformatics, 2021, btab083, https://doi.org/10.1093/bioinformatics/btab083). The common information of DNA sequence pre-trained language model is transferred to modeling synonymous mutations. SMLM-1 is a framework trained entirely on biological sequence data, aiming to measure the impact of synonymous mutations by learning potential feature space representations. This study explores whether feature encoding obtained automatically through deep learning can sufficiently measure the identification of the effects of driver synonymous mutations in cancer, and compares it with epSMic-2.
+​We developed a deep biological language learning model SMLM-1, based on DNABERT (Yanrong Ji, Zhihan Zhou, Han Liu, Ramana V Davuluri, DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome, Bioinformatics, 2021, btab083, https://doi.org/10.1093/bioinformatics/btab083). The common information of DNA sequence pre-trained language model is transferred to modeling synonymous mutations. SMLM-1 is a framework trained entirely on biological sequence data, aiming to measure the impact of synonymous mutations by learning potential feature space representations. This study explores whether feature encoding obtained automatically through deep learning can sufficiently measure the identification of the effects of driver synonymous mutations in cancer, and compares it with epSMic-2.
 
-​	We provided source codes of SMLM-1 based on the DNABERT model and usage examples. Pre-trained and fine-tuned models are derived from the DNABERT (Yanrong Ji, Zhihan Zhou, Han Liu, Ramana V Davuluri, DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome, Bioinformatics, 2021, btab083, https://doi.org/10.1093/bioinformatics/btab083). 
+​We provided source codes of SMLM-1 based on the DNABERT model and usage examples. Pre-trained and fine-tuned models are derived from the DNABERT (Yanrong Ji, Zhihan Zhou, Han Liu, Ramana V Davuluri, DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome, Bioinformatics, 2021, btab083, https://doi.org/10.1093/bioinformatics/btab083). 
 
 ## Environment setup
 
@@ -56,7 +56,7 @@ Please refer to DNABERT (Yanrong Ji, Zhihan Zhou, Han Liu, Ramana V Davuluri, DN
 
 [DNABERT6](https://drive.google.com/file/d/1BJjqb5Dl2lNMg2warsFQ0-Xvn1xxfFXC/view?usp=sharing)
 
-We also provide a model with `KMER=3`  of DNABERT at `/examples/`.
+We also provide parameters instead of model with `KMER=3`  of DNABERT at `/examples/`.
 
 #### Fine-tune with pre-trained model
 
